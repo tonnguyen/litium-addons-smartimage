@@ -19,7 +19,6 @@ namespace Litium.AddOns.SmartImage
     [Service(ServiceType = typeof(FileMetadataExtractorService))]
     public class SmartImageService : FileMetadataExtractorServiceImpl
     {
-        //private readonly ISettingService _settingService;
         private readonly ISmartImageAnalyzer _smartImageAnalyzer;
         private ConcurrentQueue<ImageQueue> _queue = new ConcurrentQueue<ImageQueue>();
         private readonly FileService _fileService;
