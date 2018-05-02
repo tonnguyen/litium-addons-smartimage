@@ -1,0 +1,13 @@
+bin
+dist
+obj
+node_modules
+packages
+.vscode
+.vs
+Litium.AddOns.SmartImage.csproj.user
+yarn-error.log
+yarn.lock
+*.nupkg
+test
+*.json
