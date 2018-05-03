@@ -6,8 +6,8 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>http://TBD</licenseUrl>
-    <projectUrl>http://TBD</projectUrl>
+    <licenseUrl>https://github.com/tonnguyen/litium-addons-smartimage/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/tonnguyen/litium-addons-smartimage</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>First version release.</releaseNotes>

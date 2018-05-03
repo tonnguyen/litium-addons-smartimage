@@ -1,6 +1,6 @@
 # Litium Smart Image Add-on
 Smart Image is an Add-on for Litium platform, which analyzes and extracts rich information from images, powered by machine learning, to categorize images in a better way.
-This is a base package. Use it if you want to implement an implementation of ISmartImageAnalyzer. Otherwise, you should install package like Litium.AddOns.SmartImage.GoogleCloudVision.
+This is a base package. Use it if you want to implement an implementation of ISmartImageAnalyzer. Otherwise, you should install package like [Litium.AddOns.SmartImage.GoogleCloudVision](https://github.com/tonnguyen/litium-addons-smartimage-googlecloudvision).
 
 ## Build from source
 Even though the AddOn is ready to use by just installing the package, you can still build it from source.
@@ -11,4 +11,4 @@ Even though the AddOn is ready to use by just installing the package, you can st
 
 ### Implement new SmartImageAnalyzer
 To implement new SmartImageAnalyzer, create a class that implements ISmartImageAnalyzer interface. The 'Process' method would receive a ConcurrentQueue<ImageQueue>. We should dequeue its items and submit the request to the appropriate provider. Make sure to receive the response and update the image file to store those information.
-For an example, check out the Litium.AddOns.SmartImage.GoogleCloudVision project.
+For an example, check out the [Litium.AddOns.SmartImage.GoogleCloudVision](https://github.com/tonnguyen/litium-addons-smartimage-googlecloudvision) project.
