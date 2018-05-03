@@ -59,7 +59,12 @@ namespace Litium.AddOns.SmartImage
                 return;
             }
             
-            _queue.Enqueue(new ImageQueue() { SystemId = fileObject.SystemId, BlobUri = blobUri });
+            _queue.Enqueue(new ImageQueue()
+            {
+                SystemId = fileObject.SystemId,
+                BlobUri = blobUri,
+                FileName = fileObject.Name,
+            });
             if (_analyzing)
             {
                 return;

@@ -6,5 +6,6 @@ namespace Litium.AddOns.SmartImage
     {
         public Guid SystemId { get; set; }
         public Uri BlobUri { get; set; }
+        public string FileName { get; set; }
     }
 }
